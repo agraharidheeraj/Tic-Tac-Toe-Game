@@ -1,0 +1,29 @@
+.Gameofmind{
+display: grid;
+grid-template-rows: 100px 100px 100px;
+grid-template-columns: 100px 100px 100px;
+row-gap: 10px;
+column-gap: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.cell{
+    background: rgb(55, 54, 54);
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AAA;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+  
+}
+.btn{
+   text-decoration: none;
+   height: 50px;
+   width: 50px;
+
+}
